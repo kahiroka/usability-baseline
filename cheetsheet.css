@@ -1,0 +1,34 @@
+@page {
+    size: letter landscape;
+    margin: 0;
+}
+@media print {
+    html, body {
+        height: 8.1in;
+        width: 10.6in;
+        margin: 0.1in 0.1in;
+    }
+}
+#header {
+    padding: 0.25em 1em;
+    margin: 0 0;
+    color: #ffffff;
+    background: #000000;
+    border: solid 3px #000000;
+    border-radius: 0px;
+}
+#header p {
+    margin: 0;
+    padding: 0;
+}
+#columns_4 {
+    columns: 4;
+    padding: 0.25em 1em;
+    margin: 0 0;
+    border: solid 3px #000000;
+    border-radius: 0px;
+}
+#footer p {
+    margin: 0;
+    padding: 0;
+}
